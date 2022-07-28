@@ -2,7 +2,7 @@
 
 .tour
 {
-	img{
+img{
 		width: 100%;
 		display: block;
 		min-height: 13rem;
@@ -10,7 +10,7 @@
 }
 @media screen and (min-width:768px)
 {
-	.tour{
+.tour{
 		display: grid;
 		grid-template-columns: 2fr 3fr;
 		grid-column-gap: 1rem ;
@@ -21,7 +21,7 @@
 
 .img-container
 {
-	position:relative;
+position:relative;
 }
 
 .close-btn

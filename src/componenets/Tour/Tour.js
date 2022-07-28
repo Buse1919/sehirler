@@ -4,13 +4,13 @@ import "./Tour.scss";
 export default class Tour extends Component {
 	state=
 	{
-		showInfo:false
+	showInfo:false
 	};
 
 	handleInfo = () =>
 	{
 		this.setState({
-			showInfo: !this.state.showInfo
+				showInfo: !this.state.showInfo
 		});
 	}
 
